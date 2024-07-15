@@ -36,6 +36,7 @@
 .card .first-row h3{
     font-size: 13px;
     color: #47464E;
+    text-transform: capitalize;
 }
 
 .card .first-row p{
@@ -43,6 +44,7 @@
     font-size: 12px;
     font-weight: bold;
     color: #B9C5D5;
+    text-transform: capitalize;
 }
 
 .card .first-row .status{
@@ -65,7 +67,7 @@
     color: #52515A;
     font-size: 12px;
     font-weight: bold;
-    padding: 6px 4px;
+    padding: 6px;
     border-radius: 6px;
     display: flex;
     align-items: center;
