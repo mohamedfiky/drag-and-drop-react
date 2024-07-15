@@ -1,0 +1,93 @@
+.card{
+    margin-top: 10px;
+    padding: 12px 8px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.card .first-row{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.card .first-row img{
+    width:40px;
+    border-radius: 8px;
+    border: 1px solid #dddde3;
+}
+
+.card .first-row .name-city{
+    flex-grow: 1;
+}
+
+.card .first-row .name{
+    display: flex;
+    align-items: center;
+}
+
+.card .first-row .name svg{
+    color:#6FD269;
+    color:#FECA0B;
+    color:#FF554B;
+}
+
+.card .first-row h3{
+    font-size: 13px;
+    color: #47464E;
+}
+
+.card .first-row p{
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #B9C5D5;
+}
+
+.card .first-row .status{
+    font-size: 11px;
+    background-color: #D8E1F6;
+    color:#4272F2;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 7px;
+}
+
+.card .second-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-row .rating{
+    background-color: #F2F4F7;
+    color: #52515A;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.second-row .rating svg{
+    color:#FECA0B;
+    margin-left: 2px;
+}
+
+.second-row .phone{
+    font-size: 12px;
+    font-weight: bold;
+    color: #B9C5D5;
+    flex-grow: 1;
+}
+
+.card .second-row .status-2{
+    font-size: 11px;
+    background-color: #3F70F3;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 7px;
+}
